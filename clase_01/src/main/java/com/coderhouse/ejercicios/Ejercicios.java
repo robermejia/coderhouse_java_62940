@@ -44,6 +44,7 @@ public class Ejercicios {
 	System.out.print("EJERCICIO 8: ");
 	System.out.println("El peso de una persona es de: " + pesoPersona + " kilos");
 	System.out.println("");
+	
 	System.out.println("================= COSNTANTES ===============");
 	// EJERCICIO 9
 	final double PI = 3.14;
@@ -54,6 +55,7 @@ public class Ejercicios {
 	System.out.print("EJERCICIO 10: ");
 	System.out.println("La cantidad máxima de estudiantes es de: " + CANTIDAD_MAX_ESTUDIANTES);
 	System.out.println("");
+	
 	System.out.println("================= OPERADORES ===============");
 	// EJERCICIO 11
 	int num1 = 100;
@@ -83,16 +85,77 @@ public class Ejercicios {
 	double num9 = 1000;
 	double num10 = 199;
 	double numModulo = num9 % num10;
-	System.out.print("EJERCICIO 16: ");
+	System.out.print("EJERCICIO 15: ");
 	System.out.println("El modulo de " + num9 + " y " + num10 + " es de: " + numModulo);
 	System.out.println("");
+	
 	System.out.println("============ OPERADORES RELACIONALES ==========");
 	// EJERCICIO 16
+	int num11 = 10;
+	int num12 = 20;
+	String aux = num11 > num12 ? "num11 es mayor que num12" : "sum12 es mayor que num11";
+	System.out.println("EJERCICIO 16: El resultado es: " + aux);
+	// EJERCICIO 17
+	int num13 = 10;
+	int num14 = 2;
+	String aux1 = num13 % num14 == 0? "Es par":"Es impar";
+	System.out.println("EJERCICIO 17: El resultado es: " + aux1);
+	// EJERCICIO 18
+	String nombre1 = "Roberto";
+	String nombre2 = "Gustavo";
+	String aux2 = nombre1 == nombre2? "Son iguales" : "No son iguales";
+	System.out.println("EJERCICIO 18: El resultado es: " + aux2);
+	// EJERCICIO 19
+	int notaEstudiante = 15;
+	String resultado = notaEstudiante > 10 ? "Aprobado" : "Desaprobado";
+	System.out.println("EJERCICIO 19: El resultado es: " + resultado);
+	// EJERCICIO 20
+	int num15 = 15;
+	String aux3 = num15 > 0 && num15 < 11 ? "Número entre 1 y 10" : "Número fuera del rango";
+	System.out.println("EJERCICIO 20: " + num15 + " " + aux3);
+	
+	System.out.println("============ BUENAS PRÁCTICAS ==========");
+	// EJERCICIO 21
+	String nombreAlumno = "Roberto";
+	System.out.println("EJERCICIO 21: Bienvenido " + nombreAlumno);
+	// EJERCICIO 22
+	// Este es un comentario para el ejercicio 21 de buenas prácticas
+	String comentario = "Antes de esta línea hay un comentario";
+	System.out.println("EJERCICIO 22: " + comentario);
+	// EJERCICIO 23
+	int num16 = 10;
+	int num17 = num16 + 10;
+	int num18 = num17 + num16;
+	System.out.println("EJERCICIO 23: Variable refactorizada num18 es igual a: " + num18);
+	// EJERCICIO 24
+	class Ejemplo {
+		public void saludar() {
+			String nombreSaludo = "Juan";
+			System.out.println("EJERCICIO 24: Saludos a: " + nombreSaludo);
+		}	
+	}
+	Ejemplo saludo = new Ejemplo();
+	saludo.saludar();
+	// EJERCICIO 25
+	class Programa1{
+		public void sumarDosNumeros() {
+			int anioNacimiento = 1989;
+			int edadActual = 35;
+			System.out.println("EJERCICIO 26: La suma de 2 números es el año actual que es: " + (anioNacimiento + edadActual));
+		}
+	}
+	Programa1 pro1 = new Programa1();
+	pro1.sumarDosNumeros();
+	
+	System.out.println("============ VARIABLES PRIMITIVAS Y NO PRIMITIVAS ==========");
+	// EJERCICIO 26
+	
+	
+
 	
 	
 	
-	
-	
+	    
 	
 	
 		
