@@ -34,7 +34,12 @@ public class Ejercicios {
 			
 		}
 		// EJERCICIO 5
-
+		int NumeroDivisible = 15;
+		if (NumeroDivisible % 5 == 0) {
+			System.out.println("EJERCICIO 5: Este número es divisible entre 5.");									
+		}else {
+			System.out.println("EJERCICIO 5: Este número es no divisible entre 5.");												
+		}
 		// EJERCICIO 6
 		// EJERCICIO 7
 		// EJERCICIO 8
