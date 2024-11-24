@@ -1,5 +1,7 @@
 package clase_02.ejercicios;
 
+import java.util.Scanner;
+
 public class Ejercicios {
 
 	public static void main(String[] args) {
@@ -41,9 +43,64 @@ public class Ejercicios {
 			System.out.println("EJERCICIO 5: Este número es no divisible entre 5.");												
 		}
 		// EJERCICIO 6
+		int numPar = 20;
+		if (numPar % 2 == 0) {
+			System.out.println("EJERCICIO 6: Este número es par.");												
+		}else {
+			System.out.println("EJERCICIO 6: Este número es inpar.");															
+		}
 		// EJERCICIO 7
-		// EJERCICIO 8
+		int edadIndividuo = 22;
+		if (edadIndividuo >= 18) {
+			System.out.println("EJERCICIO 7: Es mayor de 18 años.");															
+		}else {
+			System.out.println("EJERCICIO 7: Es menor de 18 años.");																		
+		}
+		// EJERCICIO 8 - FORMA 1
+		char vocalA = 'a';
+        char vocalE = 'e';
+        char vocalI = 'i';
+        char vocalO = 'o';
+        char vocalU = 'u';
+
+        char consB = 'b'; 
+        char consC = 'c'; 
+        char consD = 'd'; 
+        char consF = 'f';
+        char consG = 'g';
+        char consH = 'h';
+        char consJ = 'j';
+        char consK = 'k';
+        char consL = 'l';
+        char consM = 'm';
+        char consN = 'n';
+        char consP = 'p';
+        char consQ = 'q';
+        char consR = 'r';
+        char consS = 's';
+        char consT = 't';
+        char consV = 'v';
+        char consW = 'w';
+        char consX = 'x';
+        char consY = 'y';
+        char consZ = 'z';
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa un carácter: ");
+        String caracter = scanner.nextLine();
+        char caracterIngresado = caracter.charAt(0);
+
+        if (caracterIngresado == vocalA || caracterIngresado == vocalE || caracterIngresado == vocalI ||
+                caracterIngresado == vocalO || caracterIngresado == vocalU) {
+            System.out.println("EJERCICIO 8: Es una vocal.");
+        } else if (Character.isLetter(caracterIngresado)) { // Verifica si es una letra
+            System.out.println("EJERCICIO 8: Es una consonante.");
+        } else {
+            System.out.println("EJERCICIO 8: Es un carácter especial.");
+        }
 		// EJERCICIO 9
+
+		
 		// EJERCICIO 10
 		// EJERCICIO 11
 		// EJERCICIO 12
