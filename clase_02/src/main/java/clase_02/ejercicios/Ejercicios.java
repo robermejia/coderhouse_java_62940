@@ -6,6 +6,7 @@ public class Ejercicios {
 
 	public static void main(String[] args) {
 		// EJERCICIO 1
+		System.out.println("======= Ejercicios con if =======");
 		int num1 = -2;
 		if(num1 >= 0) {
 			System.out.println("EJERCICIO 1: " + num1 + " es positivo.");
@@ -43,6 +44,7 @@ public class Ejercicios {
 			System.out.println("EJERCICIO 5: Este número es no divisible entre 5.");												
 		}
 		// EJERCICIO 6
+		System.out.println("======= Ejercicios con if-else =======");
 		int numPar = 20;
 		if (numPar % 2 == 0) {
 			System.out.println("EJERCICIO 6: Este número es par.");												
@@ -99,10 +101,21 @@ public class Ejercicios {
             System.out.println("EJERCICIO 8: Es un carácter especial.");
         }
 		// EJERCICIO 9
-
-		
+        int numeroPostivo = -10;
+        if (numeroPostivo <= 0) {
+        	System.out.println("EJERCICIO 9: El número es positivo.");
+		}else {
+			System.out.println("EJERCICIO 9: El número es negativo.");
+		}
 		// EJERCICIO 10
+        int anioBisiesto = 1900;
+        if (anioBisiesto % 4 == 0 && anioBisiesto % 100 != 0) {
+        	System.out.println("EJERCICIO 10: El año es bisiesto.");			
+		}else {
+			System.out.println("EJERCICIO 10: El año no es bisiesto.");						
+		}
 		// EJERCICIO 11
+        System.out.println("======= Ejercicios con if-else if-else =======");
 		// EJERCICIO 12
 		// EJERCICIO 13
 		// EJERCICIO 14
