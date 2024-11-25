@@ -116,9 +116,51 @@ public class Ejercicios {
 		}
 		// EJERCICIO 11
         System.out.println("======= Ejercicios con if-else if-else =======");
+        int categoria = 10;
+        if(categoria > 0 && categoria <= 2) {
+        	System.out.println("EJERCICIO 11: La categoría es bebe.");
+        }else if (categoria >= 2 && categoria <= 12) {
+        	System.out.println("EJERCICIO 11: La categoría es niño.");
+		}else if (categoria >= 13 && categoria <= 18) {
+			System.out.println("EJERCICIO 11: La categoría es adolecente.");
+		}else if(categoria > 18 && categoria <= 64) {
+			System.out.println("EJERCICIO 11: La categoría es adulto.");
+		}else {
+			System.out.println("EJERCICIO : La categoría es anciano.");			
+		};
 		// EJERCICIO 12
+        int precio = 10;
+        if (precio >= 2 && precio <= 12) {
+        	System.out.println("EJERCICIO 12: 5€");
+		}else if (precio >= 13 && precio <= 18) {
+			System.out.println("EJERCICIO 12: 10€");
+		}else {
+			System.out.println("EJERCICIO 12: 7€");
+		};
 		// EJERCICIO 13
+		int nota = 10;
+        if  (nota >= 90 && nota < 80) {
+        	System.out.println("EJERCICIO 13: Nota A");
+		}else if  (nota >= 80 && nota < 70) {
+			System.out.println("EJERCICIO 13: Nota B");
+		}else if  (nota >= 70 && nota < 60) {
+			System.out.println("EJERCICIO 13: Nota C");
+		}else if  (nota >= 60 && nota < 60) {
+			System.out.println("EJERCICIO 13: Nota D");
+		}else {
+			System.out.println("EJERCICIO 13: Nota F");
+		};
 		// EJERCICIO 14
+		int categoriaNum = 10;
+        if  (categoriaNum > 0) {
+        	System.out.println("EJERCICIO 14: Número positivo.");
+		}else if  (categoriaNum < 0) {
+			System.out.println("EJERCICIO 14: Número negativo.");
+		}else if  (categoriaNum == 0) {
+			System.out.println("EJERCICIO 14: Número cero.");
+		}else {
+			System.out.println("EJERCICIO 14: Carcter no admitido.");
+		};
 		// EJERCICIO 15
 		// EJERCICIO 16
 		// EJERCICIO 17
