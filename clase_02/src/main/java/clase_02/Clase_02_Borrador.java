@@ -1,7 +1,5 @@
 package clase_02;
 
-import java.lang.runtime.SwitchBootstraps;
-
 import javax.swing.JOptionPane;
 
 public class Clase_02_Borrador {

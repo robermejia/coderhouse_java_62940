@@ -1,4 +1,4 @@
-package com.coderhouse;
+package clase;
 
 public class Clase_01 {
 	//System.out.println("Hola Coders.!!!");

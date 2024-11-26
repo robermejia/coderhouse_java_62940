@@ -1,4 +1,4 @@
-package com.coderhouse;
+package holaMundo;
 
 public class Clase_00_Borrador {
 

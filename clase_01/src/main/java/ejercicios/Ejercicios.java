@@ -1,4 +1,4 @@
-package com.coderhouse.ejercicios;
+package ejercicios;
 
 public class Ejercicios {
 
