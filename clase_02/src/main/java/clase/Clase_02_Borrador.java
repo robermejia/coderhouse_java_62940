@@ -1,4 +1,4 @@
-package clase_02;
+package clase;
 
 import javax.swing.JOptionPane;
 
