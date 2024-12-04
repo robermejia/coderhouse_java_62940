@@ -1,4 +1,7 @@
+package main;
+
 import exepciones.PerroException;
+import herencia.Mascota;
 import herencia.Perro;
 
 public class Test {
