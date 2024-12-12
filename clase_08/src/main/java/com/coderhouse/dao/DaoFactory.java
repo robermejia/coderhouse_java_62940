@@ -1,10 +1,9 @@
-package dao;
-
+package com.coderhouse.dao;
 
 import org.springframework.stereotype.Service;
 
-import models.Alumno;
-import models.Curso;
+import com.coderhouse.models.Alumno;
+import com.coderhouse.models.Curso;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
