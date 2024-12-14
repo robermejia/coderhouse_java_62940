@@ -24,7 +24,7 @@ public class Producto {
 
 	@ManyToMany(fetch =FetchType.EAGER)
 	@JoinTable(
-				name ="producto_cliente", 
+				name ="Ventas", 
 				joinColumns = @JoinColumn(name= "producto_id"), 
 				inverseJoinColumns = @JoinColumn(name = "cliente_id")
 			)
