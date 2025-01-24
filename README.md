@@ -48,7 +48,5 @@
 [![YouTube Video](https://img.youtube.com/vi/0_iIULDKH28/1.jpg)](https://www.youtube.com/watch?v=0_iIULDKH28)
 ### 14. Clase 14 - Swagger
 [![YouTube Video](https://img.youtube.com/vi/datAQTjZuqE/1.jpg)](https://www.youtube.com/watch?v=datAQTjZuqE)
-### 1. Clase 1 - Sintaxis y Variables
-[![YouTube Video](https://img.youtube.com/vi/uomB68DnE0I/1.jpg)](https://www.youtube.com/watch?v=uomB68DnE0I)
 ### 15. Clase 15 - Workshop II
 [![YouTube Video](https://img.youtube.com/vi/lZf6T0nv-KM/1.jpg)](https://www.youtube.com/watch?v=lZf6T0nv-KM)
